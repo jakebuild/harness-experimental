@@ -28,8 +28,6 @@ What should be added or changed?
 
 Tiny, normal, or high-risk.
 
-CLI value: `--risk tiny`, `--risk normal`, or `--risk high-risk`.
-
 ### Status
 
 proposed | accepted | implemented | rejected
@@ -38,3 +36,4 @@ proposed | accepted | implemented | rejected
 ## Items
 
 No backlog items yet.
+
