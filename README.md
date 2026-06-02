@@ -117,23 +117,23 @@ product validation and harness maintenance expectations.
 From a target project directory, run:
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/hoangnb24/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --yes
+curl -fsSL "https://raw.githubusercontent.com/jakebuild/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --yes
 ```
 
 If the target already has `AGENTS.md`, `docs/`, or `scripts/`, choose one:
 
 ```bash
 # Keep existing files and add only missing Harness files
-curl -fsSL "https://raw.githubusercontent.com/hoangnb24/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --merge --yes
+curl -fsSL "https://raw.githubusercontent.com/jakebuild/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --merge --yes
 
 # Back up and replace AGENTS.md, docs/, and scripts/
-curl -fsSL "https://raw.githubusercontent.com/hoangnb24/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --override --yes
+curl -fsSL "https://raw.githubusercontent.com/jakebuild/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --override --yes
 ```
 
 Or install into a specific path:
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/hoangnb24/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --directory /path/to/project --yes
+curl -fsSL "https://raw.githubusercontent.com/jakebuild/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --directory /path/to/project --yes
 ```
 
 If the target already contains `AGENTS.md`, `docs/`, or `scripts/`, interactive

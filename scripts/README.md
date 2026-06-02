@@ -13,11 +13,11 @@ Non-interactive installs stop on those protected paths unless `--merge` or
 `--override` is provided.
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/hoangnb24/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --yes
+curl -fsSL "https://raw.githubusercontent.com/jakebuild/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --yes
 ```
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/hoangnb24/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --merge --yes
+curl -fsSL "https://raw.githubusercontent.com/jakebuild/harness-experimental/main/scripts/install-harness.sh?$(date +%s)" | bash -s -- --merge --yes
 ```
 
 The installer must stay limited to harness files. Do not use it to scaffold

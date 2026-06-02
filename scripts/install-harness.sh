@@ -27,8 +27,8 @@ Examples:
   scripts/install-harness.sh
   scripts/install-harness.sh --directory /path/to/project --yes
   scripts/install-harness.sh ./my-project --force
-  curl -fsSL https://raw.githubusercontent.com/hoangnb24/harness-experimental/main/scripts/install-harness.sh | bash -s -- --yes
-  curl -fsSL https://raw.githubusercontent.com/hoangnb24/harness-experimental/main/scripts/install-harness.sh | bash -s -- --merge --yes
+  curl -fsSL https://raw.githubusercontent.com/jakebuild/harness-experimental/main/scripts/install-harness.sh | bash -s -- --yes
+  curl -fsSL https://raw.githubusercontent.com/jakebuild/harness-experimental/main/scripts/install-harness.sh | bash -s -- --merge --yes
 EOF
 }
 
